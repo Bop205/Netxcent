@@ -234,3 +234,49 @@ nav a {
   color: #777;
   line-height: 1.6;
 }
+
+/* Unlock Section */
+.unlock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 40px 100px;
+}
+
+.unlock-banner {
+  max-width: 661px;
+}
+
+.unlock-banner-content h1 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #4D4D4D;
+  margin-bottom: 16px;
+}
+
+.unlock-banner-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #717171;
+  margin-bottom: 20px;
+}
+.unlock-banner-content button {
+  background: #4caf4f;
+  color: #f5f7fa;
+  padding-top: 14px;
+  padding-right: 32px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+  border: none;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+.unlock-banner-content button:hover{
+  background-color: var(--green-color);
+}
+.unlock-img img {
+  width: 442px;
+  height: 433px;
+}
