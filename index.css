@@ -251,7 +251,7 @@ nav a {
 .unlock-banner-content h1 {
   font-size: 36px;
   font-weight: 600;
-  color: #4D4D4D;
+  color: #4d4d4d;
   margin-bottom: 16px;
 }
 
@@ -273,10 +273,84 @@ nav a {
   gap: 10px;
 }
 
-.unlock-banner-content button:hover{
+.unlock-banner-content button:hover {
   background-color: var(--green-color);
 }
 .unlock-img img {
   width: 442px;
   height: 433px;
+}
+
+.achievement {
+  padding: 50px 10px;
+  background-color: #f5f7fa;
+}
+
+.achievement-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 64px;
+  padding-right: 144px;
+  padding-bottom: 64px;
+  padding-left: 144px;
+  gap: 60px;
+}
+
+.left {
+  max-width: 500px;
+}
+
+.left h1 {
+  font-size: 36px;
+  color: #2c2727;
+  line-height: 44px;
+  margin-right: 5000px;
+}
+
+.left h1 span {
+  color: #4caf4f;
+}
+
+.left p {
+  evement-contentmargin-top: 10px;
+  color: #888;
+  font-size: 16px;
+  line-height: 24px;
+}
+.achievement-img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-left: 150px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.img img {
+  width: 40px;
+  height: 40px;
+}
+
+.text h2 {
+  font-size: 28px;
+  color: #4d4d4d;
+  margin: 0;
+  line-height: 36px;
+}
+
+.text p {
+  font-size: 16px;
+  color: #777;
+  margin: 0;
+  line-height: 24px;
 }
