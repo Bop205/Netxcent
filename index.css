@@ -280,9 +280,9 @@ nav a {
   width: 442px;
   height: 433px;
 }
-
+/* Achievement */
 .achievement {
-  padding: 50px 10px;
+  padding: 50px 0;
   background-color: #f5f7fa;
 }
 
@@ -297,15 +297,11 @@ nav a {
   gap: 60px;
 }
 
-.left {
-  max-width: 500px;
-}
-
 .left h1 {
   font-size: 36px;
   color: #2c2727;
   line-height: 44px;
-  margin-right: 5000px;
+  margin: 0;
 }
 
 .left h1 span {
@@ -313,16 +309,18 @@ nav a {
 }
 
 .left p {
-  evement-contentmargin-top: 10px;
+  margin-top: 10px;
   color: #888;
   font-size: 16px;
   line-height: 24px;
+  gap: 8px;
 }
 .achievement-img {
   display: flex;
   flex-wrap: wrap;
   gap: 40px;
   margin-left: 150px;
+  max-width: 50%;
 }
 
 .text {
@@ -353,4 +351,49 @@ nav a {
   color: #777;
   margin: 0;
   line-height: 24px;
+}
+/* Customers */
+.customers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+  padding: 40px 100px;
+}
+
+.customers-banner {
+  max-width: 661px;
+}
+
+.customers-banner-content h1 {
+  font-size: 35px;
+  font-weight: 600;
+  color: #4d4d4d;
+  margin-bottom: 16px;
+}
+
+.customers-banner-content p {
+  font-size: 14px;
+  line-height: 1.6;
+  color: #717171;
+  margin-bottom: 20px;
+}
+.customers-banner-content button {
+  background: #4caf4f;
+  color: #f5f7fa;
+  padding-top: 14px;
+  padding-right: 32px;
+  padding-bottom: 14px;
+  padding-left: 32px;
+  border: none;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+.customers-banner-content button:hover {
+  background-color: var(--green-color);
+}
+.customers-img img {
+  width: 442px;
+  height: 433px;
 }
