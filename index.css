@@ -397,3 +397,68 @@ nav a {
   width: 442px;
   height: 433px;
 }
+/* Community */
+.community {
+  display: flex;
+  align-items: center;
+  gap: 78px;
+  padding: 30px 144px;
+  background: var(--white--color);
+}
+
+.community-banner {
+  flex: 1;
+  max-width: 661px;
+}
+
+.community-banner-content {
+  max-width: 900px;
+  gap: 20px;
+}
+.community-banner-content h1 {
+  font-size: 20px;
+  color: var(--green-color);
+  margin: 0;
+}
+
+.community-banner-content p {
+  font-size: 16px;
+  line-height: 1.4;
+  color: #717171;
+  margin-bottom: 20px;
+}
+
+.community-banner-content span {
+  display: block;
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 20px;
+}
+.community-img img {
+  width: 326px;
+  height: 326px;
+  border-radius: 8px;
+}
+
+.community-logo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.community-logo img {
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  padding-top: 4px;
+  padding-left: 4px;
+}
+
+.meet {
+  font-size: 16px;
+  color: #4caf4f;
+  margin-left: auto;
+  cursor: pointer;
+}
